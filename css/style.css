@@ -13,41 +13,23 @@
 
 
 .body {
-
     color: var(--primary-text-color);
     background-color: var(--primary-white-color);
-    font-family: 'Roboto', sans-serif;
+    font-family:'Roboto', sans-serif;
     font-size: 14px;
     letter-spacing: 0.03em;
 
 }
 
-.container {
-    
-}
-
 .list {
     list-style: none;
 }
-.item {
-    list-style-type: none;
-        /* Убираем маркеры */
-}
-
 .link {
     text-decoration: none;
 }
-
-
-.img {
-    display: block;
-    max-width: 100%;
-    height: auto;
-}
-
-.header {
-    border-bottom: 1px solid var(--header-border-color);
-}
+.item {
+    list-style-type: none;
+  }  /* Убираем маркеры */
 
 /* Logo */
 .logo {
@@ -68,21 +50,7 @@
     
 }
 
-.logo-one {
-   
-}
-
-/* Main-Naw */
-
-
 /* Navigation */
-
-.site-nav {
-     display: flex;
-}
-
-.site-nav .item:not(:last-child) {
-}
    
 .site-nav .link {
     color: var(--title-text-color);
@@ -99,18 +67,6 @@
 }
 .contact-nav .link.current {
     color: var(--accent-color);
-}
-
-/* Contact-nav*/
-.contact-nav {
-    display: flex;
-}
-   
-.contact-nav .link {
-   
-}
-.contact-nav .item+.item {
-   
 }
 
 /* Contact */
@@ -136,6 +92,7 @@
     margin: -1px;
     border: 0;
     padding: 0;
+
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
@@ -143,11 +100,6 @@
 }
 
 /* Hero title */
-.hero {
-    background-color: var(--footer-bg-color);
-    text-align: center;
-}
-
 .hero-title {
     color: var(--primary-white-color);
     font-weight: 900;
@@ -158,6 +110,9 @@
 }
 
 /* Background color section */
+.hero {
+    background-color: var(--footer-bg-color);
+}
 
 .section.team {
     background-color: var(--end-bg-color);
@@ -179,22 +134,6 @@
 }
 
 /* Singularity */
-.singularity {
-   
-}
-
-.singularity-list {
-    display: flex;
-}
-
-.singularity-list .item {
-    width: 270px;
-}
-
-.singularity-list .item:not(:last-child) {
-   
-}
-
 .singularity-title {
     color: var(--title-text-color);
     font-weight: 700;
@@ -203,42 +142,7 @@
     text-transform: uppercase;
 }
 
-.singularity-text {
-    line-height: 1.71;
-}
-
-/* What are we doing */
-
-.img-list {
-    display: flex;
-}
-
-.img-list .item:not(:last-child) {
-  
-}
-
 /* Team section */
-.section-team {
-    background-color: var(--end-bg-color);
-}
-
-.team {
-    display: flex;
-}
-
-.team .item:not(:last-child) {
-   
-}
-
-
-.team .item {
-    
-}
-
-.team-list {
-}
-   
-
 .team-member {
     color: var(--title-text-color);
     font-style: normal;
@@ -256,21 +160,8 @@
 }
 
 /* Footer */
-.footer {
-   
-}
-
-.address-bottom {
-    
-}
-
 .address {
     font-style: normal;
-}
-
-.address .item:not(:last-child) {
-
-   
 }
 
 .address-be-found {
@@ -296,18 +187,18 @@
 /* Button  */
 
 .button {
-    display: inline-block;
     color: var(--title-text-color);
     background-color: var(--primary-white-color);
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
+    display: flex;
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
     cursor: pointer;
-}
+    }
 
 .button.primary {
     color: var(--primary-white-color);
@@ -322,26 +213,9 @@
 }
 
 /* Portfolio page */
-.main-project {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
-
-.section-portfolio {
-    
-}
-
-.button-list {
-    display: flex;
-    justify-content: center;
-
-}
-
 .button-portfolio {
     background-color: var(--end-bg-color);
     font-family: inherit;
-    text-align: center;
     font-weight: 500;
     line-height: 1.62;
     letter-spacing: 0.03em;
@@ -354,13 +228,8 @@
 .button-portfolio:focus {
     color: var(--primary-white-color);
     background-color: var(--accent-color);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   
 }
-
-.button-list .item:not(:last-child) {
-  
-}
-
 
 .button-item:hover,
 .button-item:focus {
@@ -368,36 +237,16 @@
     background-color: var(--accent-color);
 }
 
-.project-container {
-   
-}
-
-.project-list {
-    width: 370px;
-    border: 1px solid var(--portfolio-border-color);
-
-
-}
-
-.project-list: {
-   
-}
-
-.project-list: {
-   
-}
-
-
 .project-title {
     color: var(--title-text-color);
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
 }
 
 .project-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
+}
