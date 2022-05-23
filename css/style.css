@@ -65,7 +65,7 @@
 .site-nav .link:focus {
     color: var(--accent-color);
 }
-.contact-nav .link.current {
+.contact-nav .link .link-current {
     color: var(--accent-color);
 }
 
@@ -114,7 +114,7 @@
     background-color: var(--footer-bg-color);
 }
 
-.section.team {
+.team {
     background-color: var(--end-bg-color);
 }
 
@@ -123,14 +123,12 @@
 }
 
 /* Section */
-
-.section-title {
-    color: var(--title-text-color);
+.team-title .job-title {
+     color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-
 }
 
 /* Singularity */
@@ -217,6 +215,7 @@
     background-color: var(--end-bg-color);
     font-family: inherit;
     font-weight: 500;
+    font-size: 14px;
     line-height: 1.62;
     letter-spacing: 0.03em;
     background-color: var(--end-bg-color);
